@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229, 224, 224);
+}
+
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 10px;
+ box-shadow: 0 0 10px black;
+ padding: 20px;
+ border-radius: 5px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#value{
+    font-size: 30px;
+    color: beige;
+    padding: 10px 20px;
+    border: 1px solid rgb(19, 18, 18);
+    background-color: rgb(79, 77, 77);
+}
